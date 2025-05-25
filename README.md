@@ -1,2 +1,2 @@
 # the-tailor-shop
-author - Vandan Rathod
+author - Vandan Anilkumar Rathod

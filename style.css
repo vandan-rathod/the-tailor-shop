@@ -1,3 +1,14 @@
 .searchbar{
-    color: antiquewhite;    
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.search{
+    width: 500px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    
 }

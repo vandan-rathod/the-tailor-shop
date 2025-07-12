@@ -3,7 +3,10 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    
+}
+
+.search:hover{
+    transform: scale(1.05);
 }
 
 .search{
@@ -14,10 +17,12 @@
     background-color: rgb(47, 45, 45);
     color: aliceblue;
     border-radius: 50px;
+    transition: transform 0.2s ease;
 }
 
 .mainpart{
     background: #111010;
+    overflow-x: hidden;
 }
 
 .shortcut-container{

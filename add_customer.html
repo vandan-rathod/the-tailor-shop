@@ -3,25 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>add customer</title>
+    <title>homepage</title>
 </head>
 <body>
     <centre>
         <h1>
-                customer  
+            <font size="6" face="Comic sans MS">
+                Customer Details  
+            </font>   
         </h1>
     </centre>
+    <hr>
     <form action="" method="get">
-        <label>Date:</label>
-        <input type="date" >
+        <label for="current">
+            <align="left">
+                <u>Date: </u>
+             </align>
+            </label>
+        <input type="date" id="current" name="current"readonly>
 
-        <label>Order No.</label>
+        <label>
+            <align="right">
+                <u>Order No.</u>
+            </align>
+        </label>
         <input type="number" size="7">
-
-        <label>Name:</label>
+        <hr>
+<br>
+<font face="courier new">      
+<label>Name:  </label>
         <input type="text" name="name">
-
-        <label>Mobile No.</label>
+            <br>
+            <label>Code :</label>
+            <input type="number" size="5">
+            <br>
+            <lable>
+Mobile No. :
+</label>
         <select name="country-code">
             <option value="+91">India (+91)</option>
             <option value="+1">USA (+1)</option>
@@ -30,8 +48,19 @@
             <option value="+61">Australia (+61)</option>
             <option value="+49">Germany (+49)</option>
         </select>
-        <input type="number">
-
+        <input type="number" size="10">
+        <br>
+        <label for="delivery date">
+            Delivery Date: 
+            </label>
+        <input type="date" id="delivery date" name="delivery date" min="current">
+        <br>
+        <label>Address :</label>
+        <input type="textarea">
+        <br>
+ <label>City :</label>
+ <input type="text">
+</font>
     </form>
 </body>
 </html>
